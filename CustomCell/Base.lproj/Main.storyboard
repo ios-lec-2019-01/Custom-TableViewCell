@@ -30,40 +30,36 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="adt-pX-iOT">
-                                                    <rect key="frame" x="10" y="10" width="160" height="51"/>
+                                                    <rect key="frame" x="10" y="5" width="157" height="71.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label                    " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmx-sI-Vpk">
-                                                            <rect key="frame" x="1.5" y="0.0" width="157" height="27.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label                    " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmx-sI-Vpk">
+                                                            <rect key="frame" x="0.0" y="0.0" width="157" height="27.5"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUy-pR-2lw">
-                                                            <rect key="frame" x="59" y="36.5" width="42" height="14.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUy-pR-2lw">
+                                                            <rect key="frame" x="57.5" y="36.5" width="42" height="35"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="1" green="0.6671401092" blue="0.13889048949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="160" id="onk-U5-AnZ"/>
-                                                    </constraints>
                                                 </stackView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="69Z-xJ-Ndj">
-                                                    <rect key="frame" x="299" y="5" width="66" height="66"/>
+                                                    <rect key="frame" x="295" y="5" width="70" height="70"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="66" id="7Zd-dT-mDY"/>
-                                                        <constraint firstAttribute="height" constant="66" id="Bn4-LU-nlA"/>
+                                                        <constraint firstAttribute="height" constant="70" id="Tdt-7T-ggB"/>
+                                                        <constraint firstAttribute="width" constant="70" id="YtV-K4-k5S"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="adt-pX-iOT" secondAttribute="bottom" constant="10" id="GTj-gL-CL9"/>
-                                                <constraint firstItem="69Z-xJ-Ndj" firstAttribute="top" secondItem="wGX-db-vdL" secondAttribute="top" constant="5" id="HsH-tk-m4W"/>
-                                                <constraint firstItem="adt-pX-iOT" firstAttribute="top" secondItem="wGX-db-vdL" secondAttribute="top" constant="10" id="Qp1-SY-1FL"/>
-                                                <constraint firstItem="69Z-xJ-Ndj" firstAttribute="centerY" secondItem="Pmx-sI-Vpk" secondAttribute="centerY" constant="14.25" id="cis-Cr-isd"/>
-                                                <constraint firstAttribute="trailing" secondItem="69Z-xJ-Ndj" secondAttribute="trailing" constant="10" id="hxX-BP-c4m"/>
-                                                <constraint firstItem="adt-pX-iOT" firstAttribute="leading" secondItem="wGX-db-vdL" secondAttribute="leading" constant="10" id="uOC-ot-uYH"/>
+                                                <constraint firstItem="69Z-xJ-Ndj" firstAttribute="top" secondItem="wGX-db-vdL" secondAttribute="top" constant="5" id="F3I-Zp-JGL"/>
+                                                <constraint firstItem="adt-pX-iOT" firstAttribute="leading" secondItem="wGX-db-vdL" secondAttribute="leading" constant="10" id="QkE-Li-Q62"/>
+                                                <constraint firstItem="adt-pX-iOT" firstAttribute="top" secondItem="wGX-db-vdL" secondAttribute="top" constant="5" id="avb-OA-rqg"/>
+                                                <constraint firstAttribute="trailing" secondItem="69Z-xJ-Ndj" secondAttribute="trailing" constant="10" id="kdz-ww-0AV"/>
+                                                <constraint firstAttribute="bottom" secondItem="adt-pX-iOT" secondAttribute="bottom" constant="5" id="vjN-QD-AZS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
